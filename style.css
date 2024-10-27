@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+:root{
+    --primary: #8797FA;
+    --font: #161616;
+    --bg: #EEECE4;
+    --star: gold;
+}
+
+*{
+    font-family: 'Open Sans';
+    color: var(--font);
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+
+h6{
+    font-weight: 600;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 33px;
+}
+
+h4{
+    font-size: 28px;
+}
+
+h5{
+    font-size: 23px;
+}
+
+h6{
+    font-size: 19px;
+}
+
+p,input{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+small{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+a:hover{
+    color: var(--primary);
+}
+
+.fas.fa-star{
+    color: var(--star);
+    padding-right: 8px;
+}
+
+input[type="button"],input[type="submit"]{
+    background-color: var(--primary);
+    padding: 8px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: var(--bg);
+}
+
+#bl, #bs, #bp {
+    padding: 10px 0;
+    height: 64px;
+    text-align: center;
+}
+
+#bl{
+    width: 15%;
+    float: left;
+    padding: 0;
+}
+
+#bl a{
+    padding-left: 24px;
+}
+
+#bl a img{
+    width: 40%;
+}
+
+#bs{
+    width: 50%;
+    float: left;
+    line-height: 64px;
+}
+
+#bs input[type="submit"]{
+    background-color: var(--font);
+    color: var(--bg);
+    padding: 6px 16px;
+}
+
+#bs input[type="text"]{
+    width: 60%;
+    padding: 4px 0;
+    padding-left: 8px;
+    border: 2px solid var(--font);
+    background-color: var(--bg);
+}
+
+#bp {
+    width: 35%;
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#bp h6 {
+    margin-right: 10px;
+}
+
+#bp h5 {
+    margin: 0 8px;
+    padding: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#koszyk{
+    display: inline;
+    margin-left: 48px;
+}
+
+#koszyk *{
+    display: inline;
+}
+
+#Umcontent {
+    display: none;
+    position: absolute;
+    background-color: var(--primary);
+    margin-top: 88px;
+    margin-left: 32px;
+    padding: 5px;
+    border: 2px solid var(--font);
+    z-index: 2;
+}
+
+#Umenu:hover + #Umcontent, #Umcontent:hover{
+    display: block;
+}
+
+#Umcontent form{
+    margin: 0;
+}
+
+#Umcontent input{
+    border: none;
+    background-color: var(--primary);
+    color: var(--font);
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+#menu{
+    width: 100%;
+    padding: 12px 0;
+    clear: both;
+    text-align: center;
+    background-color: var(--primary);
+}
+
+#menu a{
+    padding-left: 32px;
+    font-size: 23px;
+    color: var(--bg);
+}
+
+#bestsellers, #topR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+section h2{
+    margin-top: 64px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+#widget{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+#ksiazki{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    column-gap: 64px;
+}
+
+.lista2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 64px;
+    row-gap: 32px;
+    margin-bottom: 160px;
+}
+
+#ksiazka{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#ksiazka img{
+    width: 200px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+#ksiazka input[type="button"]{
+    width: 100%;
+    margin-top: 16px;
+    font-size: 19px;
+}
+
+#ksiazka *{
+    margin: 0;
+}
+
+#cenaocena{
+    display: inline;
+}
+
+#cenaocena p{
+    margin-left: 58px;
+}
+
+#cenaocena *{
+    display: inline;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--primary);
+    height: 64px;
+    line-height: 64px;
+}
+
+footer *{
+    color: var(--bg);
+}
+
+/* styl dla rej/login */
+
+#banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 128px;
+    padding: 8px 0;
+}
+
+#banner img{
+    width: 128px;
+}
+
+#formularz{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 17%;
+}
+
+#formularz form *{
+    margin-bottom: 12px;
+    font-size: 19px;
+}
+
+#formularz form input[type="text"], #formularz form input[type="password"], #formularz form input[type="email"]{
+    border: 1px solid var(--font);
+    background-color: var(--bg);
+    padding: 4px 4px;
+}
+
+#formularz form input[type="submit"]{
+    width: 100%;
+}
+
+/* styl dla poj. ksiazek */
+
+#główny{
+    margin-top: 128px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 72px;
+    justify-content: center;
+}
+
+#detale{
+    display: flex;
+    flex-direction: column;
+}
+
+#detale *{
+    margin:0;
+}
+
+#detale h6{
+    margin-top: 8px;
+    text-align: right;
+}
+
+#detale h2{
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+#detale input[type="button"]{
+    padding: 16px 0;
+    font-size: 23px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+#oi{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#oi a h6{
+    display: inline;
+    color: var(--primary);
+    margin-right: 24px;
+}
+
+#opis{
+    width: 60%;
+    margin: auto;
+}
+
+#opis h2{
+    margin-top: 256px;
+    margin-bottom: 8px;
+}
+
+#opis p{
+    text-align: justify;
+}
+
+#info{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 128px;
+}
+
+#info h2{
+    margin-top: 128px;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1.5px solid var(--font);
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 16px 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--primary);
+}
