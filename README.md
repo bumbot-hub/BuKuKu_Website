@@ -10,18 +10,13 @@ BuKuKu Bookstore is an online platform that lets users browse, search, and purch
 
 💻Tech Stack💻
 
-    > Frontend: HTML, CSS, JavaScript
-    > Backend: PHP
-    > Database: SQL (for storing book data, user information, and transaction history)
+[![Languages](https://skillicons.dev/icons?i=,html,css,js,php,mysql)](https://skillicons.dev)
 
 🔮Future Improvements🔮
 
     > 🟡 Shopping Cart: Improve cart functionalities, such as saving items for later and quantity adjustments.
     > 🟡 Homepage improvements.
     > 🟡 Enhancing the UI for better user experience,
-    > 🔴 Implementing a review and rating system,
-    > 🔴 Admin Dashboard: Expand admin capabilities with detailed analytics and sales reports.
-    > 🔴 Promotions Management: Implement a system for creating and managing promotions or discounts on selected books.
 
 ⚖️License⚖️
 
