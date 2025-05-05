@@ -4,9 +4,9 @@ BuKuKu Bookstore is an online platform that lets users browse, search, and purch
 
 ### ✨Features✨
 
-    > 🔎 Book Search: Easily find books by title, author, or genre.
-    > 📖 Book Details: Each book includes detailed information such as author, publication year, and price.
-    > 🔒 User Authentication: Register and log in to save your cart and purchase history.
+  -> 🔎 Book Search: Easily find books by title, author, or genre.  
+  -> 📖 Book Details: Each book includes detailed information such as author, publication year, and price.  
+  -> 🔒 User Authentication: Register and log in to save your cart and purchase history.  
 
 ### 💻Tech Stack💻
 
@@ -14,9 +14,9 @@ BuKuKu Bookstore is an online platform that lets users browse, search, and purch
 
 ### 🔮Future Improvements🔮
 
-    > 🟡 Shopping Cart: Improve cart functionalities, such as saving items for later and quantity adjustments.
-    > 🟡 Homepage improvements.
-    > 🟡 Enhancing the UI for better user experience,
+ 🟡 Shopping Cart: Improve cart functionalities, such as saving items for later and quantity adjustments,  
+ 🟡 Homepage improvements,  
+ 🟡 Enhancing the UI for better user experience.  
 
 ### ⚖️License⚖️
 
